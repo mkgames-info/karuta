@@ -17,6 +17,17 @@
     width: 90%;
   }
   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  #header{
+    background-color: #FFF;
+    height: 40px;
+  }
+  #icon{
+    height: 30px;
+    margin: 5px;
+    float: left
+/*    background-color: #FFF;*/
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
   #main{
     background-color: #FAEC87;
   }
@@ -123,6 +134,8 @@
   }
 }
 
+
+
 @media screen and (min-width:621px) {
   body{
     font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
@@ -135,6 +148,17 @@
     margin: auto;
     padding: 30px 0px;
     width: 80%;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+  #header{
+    background-color: #FFF;
+    height: 60px;
+  }
+  #icon{
+    height: 40px;
+    margin: 10px;
+    float: left
+/*    background-color: #FFF;*/
   }
   /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
   #main{
@@ -201,9 +225,9 @@
     padding-right: 20px;
   }
   td{
-    font-size: 14px;
+    font-size: 20px;
     text-align: left;
-    padding-top: 6px;
+/*    padding-top: 6px;*/
   }
   td p{
     font-size: 10px;
@@ -242,8 +266,6 @@
   }
     
 }
-
-
 
 
 
