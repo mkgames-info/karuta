@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>上毛かるた</title>
+    <meta charset="utf-8">
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="_asset/css/reset.css">
+    <link rel="stylesheet" href="_asset/css/style.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      
+    <link rel="shortcut icon" href="_asset/images/180.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  </head>
+  <body>
+    <div id="main">
+      <div class="content">
+        <img id="web1" src="_asset/images/web1.png">
+        <div class="left">
+          <img  src="_asset/images/2.PNG">
+        </div>
+        <div class="right">
+          
+          <div id="store_link">
+            <p>ダウンロードはこちら!<br><br>価格：無料<br></p>
+            
+            <a href="https://apps.apple.com/jp/app/id1509440407"><img src="_asset/images/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg" alt="ロゴ"></a>
+            
+            <a href="https://play.google.com/store/apps/details?id=unity.mkgames.karuta&hl=ja"><img src="_asset/images/google-play-badge.PNG"></a>
+          </div>
+        </div>
+        <img id="web2" src="_asset/images/web4.png">
+      </div>
+    </div>
+    <script type="text/javascript">
+        $(window).on('load resize', function(){
+          console.log( window.innerWidth);
+//          var sW = window.innerWidth;
+//          var key = document.getElementById("k_key");
+//          var min_width = 920;
+//          if(sW>min_width){
+//            var topPosition = (min_width-sW)*0.66630435;
+//            key.style.top = topPosition+'px';
+//          }else{
+//            key.style.top = '0px'; 
+//          }
+        });
+      </script>
+    <div id="rule">
+      <div class="content">
+        <h2>競技の流れ</h2>
+        <table>
+
+          <tr>
+            <th>試合の準備</th>
+            <td>全44枚の札を自分と相手に22枚ずつ配ります。</td>
+          </tr>
+
+          <tr>
+            <th>並び替え</th>
+            <td>制限時間内に自分に配られた22枚の札を好きなように並び替えることができます。<br>ドラッグ＆ドロップすると入れ替わります。<br>
+              <p><br>スキップボタン<br>押すと時間が残っていても並び替えを終了させることができます。<br>オンライン対戦では自分と相手の両方がボタンを押した時にスキップされます）</p></td>
+          </tr>
+
+          <tr>
+            <th>覚える時間</th>
+            <td>自分と相手の札の位置を覚えます。
+              <p><br>スキップボタン<br>押すと時間が残っていても並び替えを終了させることができます。<br>オンライン対戦では自分と相手の両方がボタンを押した時にスキップされます）</p></td>
+          </tr>
+
+          <tr>
+            <th>競技開始</th>
+            <td>始まりの合図として「鶴舞う形の群馬県」が2回読まれます。<br>その後ランダムに「あ」〜「わ」までの札が「本読み」「空読み」の順で2回ずつ読まれていきます。<br>読まれた札をどちらも取らずに次の札が読まれた場合は、その札はどちらの得点にもならず審判預かりとなります。<br>札が最後の2枚になると真ん中に並び替えが行われます。<br>並び替えられた後、1つ前の札の「空読み」をしてから最後の2枚のどちらかの「本読み」をします。<br>この札を取った人が残りの1枚ももらえます。
+              <p><br>アプリ版では札を読んでいる時にタイマーを表示しています。<br>本読み：タイマーはオレンジ<br>空読み：タイマーは青</p></td>
+          </tr>
+
+          <tr>
+            <th>結果発表</th>
+            <td>場からすべての札がなくなったら結果発表になります。<br>持ってる札が多い方が勝利となります。<br>得点が同じでどちらかが「つ」を持っている場合は「つ」を持っている方が勝利。<br>得点が同じでどちらも「つ」を持ってない場合は引き分けとなります。</td>
+          </tr>
+
+          <tr>
+            <th>お手つき</th>
+            <td>お手つきをした場合、相手に札を1枚渡します。<br>1枚も札を持ってない時は何も起こりません。<br>持っている札が「つ」しかないときは「つ」の札を渡します。<br>「つ」以外の札があればそれから先に自動で渡します。<br>お手つきは本読みされてからその札が取られるまで有効です。<br>読まれた札と同じ陣の他の札を触るとお手つきとなります。</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+        <div class="foot-cont">
+            <ul>
+                <li><a target="_blank" href="#">プライバシーポリシー</a></li>
+                <li><a target="_blank" href="#">利用規約</a></li>
+                <li><a target="_blank" href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <p class="copyright">&copy; 2020 Risa Matsuzaki</p>
+    </footer>
+    <p>
+  </body>
+</html>
